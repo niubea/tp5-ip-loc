@@ -1,5 +1,5 @@
 <?php
-namespace Libo\IPLoc;
+namespace libo\tp5_ip_loc;
 /*
  *  全球 IPv4 地址归属地数据库
  *  李波 <libo@usa.com>
@@ -7,7 +7,7 @@ namespace Libo\IPLoc;
  *  Code for PHP 5.4+ only
  */
 
-class IP
+class IPLoc
 {
     private static $ip     = NULL;
 
