@@ -1,4 +1,5 @@
 # tp5-ip-loc
+支持框架：ThinkPHP 5.1    
 基于ThinkPHP5.1框架的ip地址查询库，可以针对ip地址进行查询，返回省份城市  
 使用方法：  
 1. 先在项目根目录composer require libo/tp5-ip-loc ；  
