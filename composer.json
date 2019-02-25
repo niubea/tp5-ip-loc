@@ -7,10 +7,7 @@
     "autoload": {
         "psr-4": {
             "libo\\tp5_ip_loc\\": "src"
-        },
-        "files": [
-            "src/helper.php"
-        ]
+        }
     },
     "require": {
         "php": ">=5.4",
