@@ -1,5 +1,7 @@
 <?php
 namespace libo\tp5_ip_loc;
+
+use think\Exception;
 /*
  *  全球 IPv4 地址归属地数据库
  *  李波 <libo@usa.com>
@@ -98,7 +100,11 @@ class IPLoc
     {
         if (self::$fp !== NULL)
         {
-            fclose(self::$fp);
+            try {
+                fclose(self::$fp);
+            } catch (Exception $e) {
+                //die("无法关闭，请联系系统管理员！".$e);
+            }
         }
     }
 }
